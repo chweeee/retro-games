@@ -5,10 +5,11 @@ hello:
 
 build:
 	go build -o snake $(GIT_ROOT)/cmd/snake/main.go
+	go build -o pong $(GIT_ROOT)/cmd/pong/main.go
 
-run:
+snake:
 	go run $(GIT_ROOT)/cmd/snake/main.go
 
-test:
-
+pong:
+	go run $(GIT_ROOT)/cmd/pong/main.go
 
